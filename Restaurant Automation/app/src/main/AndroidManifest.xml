@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.androidhive.materialtabs">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/cuteimg"
+        android:label="@string/app_name"
+        android:theme="@style/MyMaterialTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.Authentication"
+            android:label="@string/title_activity_custom_view_icon_text_tabs"
+            android:parentActivityName=".activity.MainActivity" />
+        <activity
+            android:name=".activity.Chef"
+            android:label="@string/title_activity_chef"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.Waiter"
+            android:label="@string/title_activity_waiter"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.About"
+            android:label="@string/title_activity_about"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.Contact"
+            android:label="@string/title_activity_contact"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.Help"
+            android:label="@string/title_activity_help"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.Customer"
+            android:label="@string/title_activity_customer"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.PayBill"
+            android:label="@string/title_activity_pay_bill"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.FeedBack"
+            android:label="@string/title_activity_feed_back"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.Table"
+            android:label="@string/title_activity_table"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.Clear"
+            android:label="@string/title_activity_clear"
+            android:theme="@style/MyMaterialTheme" />
+        <activity
+            android:name=".activity.ViewMenu"
+            android:label="@string/title_activity_view_menu"
+            android:theme="@style/MyMaterialTheme" />
+    </application>
+
+</manifest>

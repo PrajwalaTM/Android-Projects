@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="100dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txt_dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Enter Quantity"
+        android:textColor="#030303"
+        android:textSize="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText2"
+        android:layout_above="@+id/btn_order"
+        android:layout_toLeftOf="@+id/cancel"
+        android:layout_toStartOf="@+id/cancel" />
+
+    <Button
+        android:id="@+id/btn_order"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:background="#bb2222"
+        android:clickable="true"
+        android:text="Order"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:background="#bb2222"
+        android:clickable="true"
+        android:text="CANCEL"
+        android:textColor="#FFFFFF"
+        android:layout_alignTop="@+id/btn_order"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="info.androidhive.materialtabs.activity.Contact"
+    tools:showIn="@layout/activity_contact">
+
+    <ImageView
+        android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:src="@drawable/contact"
+        android:id="@+id/imageView1"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_alignEnd="@+id/textView7"
+        android:layout_alignLeft="@+id/textView12"
+        android:layout_alignStart="@+id/textView12" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="51dp"
+        android:id="@+id/textView1"
+        android:textColor="#f44336"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAllCaps="true"
+        android:text="ASHRITHA KANDIRAJU"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView3"
+        android:text="ashritha1615@gmail.com"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#030303" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView2"
+        android:text="14CO133"
+        android:layout_below="@+id/textView7"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:textColor="#030303" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView7"
+        android:text="prajwala.tm@gmail.com"
+        android:layout_below="@+id/textView5"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:textColor="#030303" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView5"
+        android:textColor="#f44336"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAllCaps="true"
+        android:text="                                                              Prajwala TM"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView6"
+        android:text="14CO121"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:textColor="#030303" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView11"
+        android:textColor="#f44336"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAllCaps="true"
+        android:text="Samanvita Sastry"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_alignEnd="@+id/textView1" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView12"
+        android:text="samsastry.1@gmail.com"
+        android:layout_below="@+id/textView11"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:textColor="#030303" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView13"
+        android:text="14CO139"
+
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:textColor="#030303" />
+
+</RelativeLayout>

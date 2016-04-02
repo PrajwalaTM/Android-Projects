@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.prajwala.quizapp.QuestionPage2"
+    android:background="#ffedffbc">
+
+
+    <TextView android:text="@string/questiontwo" android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:singleLine="false"
+        android:layout_alignParentEnd="false"
+        android:textIsSelectable="false"
+        android:id="@+id/textView6"
+        android:textSize="25sp"
+        android:textColor="#ff0d0d0d" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="First generation Computer"
+        android:id="@+id/q2o1"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:onClick="correct"
+        android:textColor="#ffffffff"
+        android:background="@mipmap/scorepic" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Second Generation Computer"
+        android:id="@+id/q2o2"
+        android:layout_below="@+id/q2o1"
+        android:layout_centerHorizontal="true"
+        android:onClick="wrong"
+        android:textColor="#ffffffff"
+        android:background="@mipmap/scorepic" />
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Third Generation Computer"
+        android:id="@+id/q2o3"
+        android:layout_below="@+id/q2o2"
+        android:layout_centerHorizontal="true"
+        android:onClick="wrong"
+        android:textColor="#ffffffff"
+        android:background="@mipmap/scorepic" />
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Fourth Generation Computer"
+        android:id="@+id/q2o4"
+        android:layout_below="@+id/q2o3"
+        android:layout_centerHorizontal="true"
+        android:onClick="wrong"
+        android:textColor="#ffffffff"
+        android:background="@mipmap/scorepic" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/score2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="PROCEED"
+        android:id="@+id/proceed2"
+        android:background="#e3184fff"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffffff"
+        android:onClick="movenext" />
+
+</RelativeLayout>
